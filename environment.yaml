@@ -1,0 +1,21 @@
+name: stac-lightning
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - adlfs
+  - dask=2023.7.0
+  - fsspec
+  - pip
+  - stackstac
+  - netcdf4
+  - zarr
+  - rasterio
+  - planetary-computer
+  - pystac
+  - pystac-client
+  - xarray
+  # JupyterLab + extensions
+  - jupyterlab>=3,<4
+  - pip:
+    - xpystac
